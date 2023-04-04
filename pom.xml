@@ -4,7 +4,7 @@
     <groupId>com.wakaleo.gameoflife</groupId>
     <artifactId>gameoflife</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    
     <packaging>pom</packaging>
     <name>gameoflife</name>
     <url>https://github.com/wakaleo/game-of-life</url>
@@ -386,7 +386,7 @@
         <profile>
             <id>maven2</id>
             <build>
-              <finalName>game_of_life</finalName>
+              
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
